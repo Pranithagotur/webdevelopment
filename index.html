@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Bus Tracking</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Load Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>City Bus Tracking System</h1>
+        </header>
+
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Enter your start and end location...">
+            <button id="search-btn" onclick="searchBusRoute()">Search</button>
+        </div>
+
+        <div id="map"></div>
+
+        <div class="bus-info" id="bus-info">
+            <h2>Bus Details</h2>
+            <p id="bus-details">Click on a bus to view details</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

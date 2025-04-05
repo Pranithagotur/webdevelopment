@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.search-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#search-bar {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #2c3e50;
+    border-radius: 5px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+.bus-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bus-info h2 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.bus-info p {
+    font-size: 18px;
+    color: #7f8c8d;
+}
